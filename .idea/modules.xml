@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist/task/Tasklist.Tasklist-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tasklist.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tasklist.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tasklist.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tasklist.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tasklist.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tasklist.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Tasklist.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Tasklist.util.test.iml" />
+    </modules>
+  </component>
+</project>
