@@ -1,3 +1,4 @@
+<div class="step-text">
 <p></p><h5 id="description">Description</h5><p>In this stage, we will add on another useful feature — the ability to indicate a deadline for a particular task. We will also work on a priority tag feature.</p><p>Of course, a task may come without a deadline. However, to keep things simple, a deadline is required for each task in this stage.</p><p>When users add a task, also ask them to input a date, time, and a priority tag. The latter is just one letter: <code class="language-kotlin">C</code>, <code class="language-kotlin">H</code>, <code class="language-kotlin">N</code>, <code class="language-kotlin">L</code> (case-insensitive) per task that stands for Critical, High, Normal, and Low, respectively.</p><p>Dates and time can be handled in many ways. However, in this project, we recommend using the Kotlinx <code class="language-kotlin">datetime</code> library. Kotlinx consists of valuable libraries that aren't a part of the standard library. To access the Kotlinx <code class="language-kotlin">datetime</code> library, it should be added to your project dependencies, but this has already been done for you. In order to use it, you should just import it to your program with:</p><pre><code class="language-kotlin">import kotlinx.datetime.*</code></pre><p>Following are some examples of how to use the <code class="language-kotlin">datetime</code> library:</p><pre><code class="language-kotlin">// Create a LocalDate instance for 2017-4-29
 val date = LocalDate(2017, 4, 29)
 
@@ -161,3 +162,4 @@ No tasks have been input
 Input an action (add, print, end):
 &gt; end
 Tasklist exiting!</code></pre>
+</div>

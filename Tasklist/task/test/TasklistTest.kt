@@ -1,3 +1,4 @@
+import com.google.gson.JsonElement
 import kotlinx.datetime.*
 import org.hyperskill.hstest.common.JsonUtils
 import org.hyperskill.hstest.common.JsonUtils.getJson
@@ -5,6 +6,8 @@ import org.hyperskill.hstest.dynamic.DynamicTest
 import org.hyperskill.hstest.stage.StageTest
 import org.hyperskill.hstest.testcase.CheckResult
 import org.hyperskill.hstest.testing.TestedProgram
+import org.hyperskill.hstest.testing.expect.Expectation.expect
+import org.hyperskill.hstest.testing.expect.json.JsonChecker.*
 import java.io.File
 
 class TasklistTest : StageTest<Any>() {

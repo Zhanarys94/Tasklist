@@ -1,19 +1,19 @@
 type: edu
 files:
-- name: src/tasklist/Main.kt
-  visible: true
-  text: |+
-    package tasklist
-
-    fun main() {
-        // write your code here
-    }
-
-
-  learner_created: false
-- name: test/TasklistTest.kt
-  visible: false
-  text: "import org.hyperskill.hstest.dynamic.DynamicTest\nimport org.hyperskill.hstest.stage.StageTest\n\
+  - name: src/tasklist/Main.kt
+    visible: true
+    text: |+
+      package tasklist
+      
+      fun main() {
+          // write your code here
+      }
+    
+    
+    learner_created: false
+  - name: test/TasklistTest.kt
+    visible: false
+    text: "import org.hyperskill.hstest.dynamic.DynamicTest\nimport org.hyperskill.hstest.stage.StageTest\n\
     import org.hyperskill.hstest.testcase.CheckResult\nimport org.hyperskill.hstest.testing.TestedProgram\n\
     \nclass TasklistTest : StageTest<Any>() {\n\n    @DynamicTest(order = 1)\n   \
     \ fun tasklistTest01(): CheckResult {\n        val co = CheckOutput()\n      \
@@ -106,7 +106,7 @@ files:
     \ }\n    fun setCaseSensitivity(caseInsensitive: Boolean) { this.caseInsensitive\
     \ = caseInsensitive }\n    fun setOutputTrim(trimOutput: Boolean) { this.trimOutput\
     \ = trimOutput}\n}\n\n\n"
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/18594#comment
 status: Solved
 record: 6
